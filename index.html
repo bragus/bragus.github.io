@@ -1,4 +1,98 @@
-<link rel="stylesheet" href="index.css">
-<script src="index.js"></script>
-<h1>Testes com Github Pages</h1>
-<p></p>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/component.css">
+    <script src="js\modernizr.custom.js"></script>
+    <title>Bragus</title>
+</head>
+<body>
+    <div class="container">
+        <div id="bl-main" class="bl-main">
+            <section>
+                <div class="bl-box bl-icon-gustavo">
+                    <img class src="img/bragus.jpg" alt="Gustavo Braga">
+                    <h2 class="bl-icon bl-icon-gustavo">Gustavo Braga</h2>
+                </div>
+                <div class="bl-content">
+                    <h2>Gustavo Braga</h2>
+                    <p>19 <br>
+                        Front-end developer <br>
+                    </p>
+                    <a href="https://github.com/bragus"><img src="" alt="github"></a>
+                    <a href="https://www.linkedin.com/in/gustavobrag/"><img src="" alt="linkedin"></a>
+                </div>
+                <span class="bl-icon bl-icon-close"></span>
+            </section>
+            <section id="bl-work-section">
+                <div class="bl-box">
+                    <h2 class="bl-icon bl-icon-works">Works</h2>
+                </div>
+                <div class="bl-content">
+                    <h2>My Works</h2>
+                    <p>Own projects and design projects</p>
+                    <ul id="bl-work-items">
+                        <li data-panel="panel-1"><a href="#"><img src="" alt="demoarcade"></a></li>
+                        <li data-panel="panel-2"><a href="#"><img src="" alt="orlando braga"></a></li>
+                        <li data-panel="panel-3"><a href="#"><img src="" alt="design projects"></a></li>
+                    </ul>
+                </div>
+                <span class="bl-icon bl-icon-close"></span>
+            </section>
+            <section>
+                <div class="bl-box">
+                    <h2 class="bl-icon bl-icon-contact">Contact</h2>
+                </div>
+                <div class="bl-content">
+                    <h2>Contato contato contato</h2>
+                    <p>listar aqui meios de contato <br> 
+                        email <br>
+                        linkedin <br>
+                        whatsapp <br>
+                    </p>
+                </div>
+                <span class="bl-icon bl-icon-close"></span>
+            </section>
+            <!--panel items for the works-->
+            <div class="bl-panel-items" id="bl-panel-work-items">
+                <div data-panel="panel-1">
+                    <div>
+                        <img src="images/demoarcade.jpg" alt="demoarcade">
+                        <h3>demoarade</h3>
+                        <p>demoarcade description</p>
+                        <a href="#"><img src="" alt="demoarcade github"></a>
+                        <a href="#"><img src="" alt="demoarcade link"></a>
+                    </div>
+                </div>
+                <div data-panel="panel-2">
+                    <div>
+                        <img src="images/orlandobraga.jpg" alt="orlando braga">
+                        <h3>orlando braga</h3>
+                        <a href="#"><img src="" alt="orlandobraga link"></a>
+                    </div>
+                </div>
+                <div data-panel="panel-3">
+                    <div>
+                        <img src="" alt="bramax">
+                        <img src="" alt="djpiu">
+                        <h3>freela designs</h3>
+                    </div>
+                </div>
+                <nav>
+                    <span class="bl-net-work">&gt; Next</span>
+                    <span class="bl-icon bl-icon-close"></span>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="js/boxlayout.js"></script>
+    <script>
+        $(function() {
+            Boxlayout.init();
+        });
+    </script>
+</body>
+</html>
