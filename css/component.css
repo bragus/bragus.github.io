@@ -63,19 +63,21 @@ a:hover {
 	top: 0;
 	left: 0;
 	background: #fff;
+	height: 100%;
 }
 
 .bl-main > section:nth-child(2){
-    background: #414141;
+    background: #4d4d4d;
     left: 50%;
     top:0;
 }
 
 .bl-main > section:nth-child(3){
-    background: #373737;
+    background: #414141;
     left: 50%;
     top: 50%;
 }
+
 
 .bl-box {
 	position: relative;
@@ -135,8 +137,9 @@ a:hover {
 
 .bl-icon-gustavo img{
     border-radius: 100%;
-    width: 300px;
+    width: 20vw;
 }
+
 
 
 .bl-icon:before {
@@ -201,6 +204,11 @@ div.bl-panel-items > div > div {
 	margin: 0 0 20px 0;
 }
 
+.bl-icon-gustavo img{
+    border-radius: 100%;
+    width: 20vw;
+}
+
 .bl-content article {
 	padding: 20px 40px 20px 0px;
 }
@@ -239,6 +247,11 @@ div.bl-panel-items > div > div {
 .bl-content > ul li a img {
 	display: block;
 	max-width: 100%;
+}
+
+.guscontent{
+	border-radius: 100%;
+	width: 20vw;
 }
 
 /* Panel Items */
@@ -373,17 +386,21 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 .bl-main > section:first-child.bl-expand {
-	background: #EE4444;
+	background: #FFF;
+	color: #333;
+}
+
+.bl-main > section:first-child.bl-expand a{
+	background: #FFF;
+	color: #333;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #F98262;
+	background: #4d4d4d;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #4BBE8E;
+	background: #414141;
 }
-.bl-main > section:nth-child(4).bl-expand {
-	background: #0D8278;
-}
+
 
 .bl-main.bl-expand-item > section:not(.bl-expand),
 .bl-main.bl-expand-item > section.bl-scale-down {
