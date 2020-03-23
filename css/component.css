@@ -45,7 +45,7 @@ a:hover {
 }
 
 a img{
-	width: 30px;
+	width: 3vw;
 	transition-duration: 0.2s;
 	transition-property: transform;
 	display: inline-block;
@@ -86,7 +86,7 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 }
 
 .profile p img{
-	height: 30px;
+	height: 5vh;
 	padding-right: 10px;
 }
 
