@@ -45,7 +45,7 @@ a:hover {
 }
 
 a img{
-	width: 3vw;
+	width: 4.2vw;
 	transition-duration: 0.2s;
 	transition-property: transform;
 	display: inline-block;
@@ -73,6 +73,11 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 	padding: 0;
 }
 
+.bl-content-profile{
+	display: flex;
+	justify-content: space-between;
+}
+
 .profile{
 	color: black;
 	width: 400px;
@@ -86,7 +91,7 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 }
 
 .profile p img{
-	height: 5vh;
+	height: 4.7vh;
 	padding-right: 10px;
 }
 
@@ -95,6 +100,11 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 
 
 .container { height: 100%; }
+
+
+#obraga, #demoarcade{
+	width: 300px
+}
 
 .bl-main {
 	position: absolute;
