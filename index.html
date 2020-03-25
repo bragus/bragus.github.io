@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en-us">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
@@ -22,11 +22,11 @@
                     <div class="profile">
                         <img class="guscontent" src="img/bragus.jpg" alt="Gustavo Braga">
                         <h2>Gustavo Braga</h2>
-                        <p><img src="img/age.png">  19 </p>
-                        <p><img src="img/dev.png">  Front-end developer</p>
-                        <p><img src="img/mail.png">  gusalmeidabraga@gmail.com </p>
-                        <a href="https://github.com/bragus"><img src="img/github.png" alt="github"></a>
-                        <a href="https://www.linkedin.com/in/gustavobrag/"><img src="img/linkedin.png" alt="linkedin"></a>
+                        <p><img src="img/icons/age.png">  19 </p>
+                        <p><img src="img/icons/dev.png">  Front-end developer</p>
+                        <p><img src="img/icons/mail.png">  gusalmeidabraga@gmail.com </p>
+                        <a href="https://github.com/bragus"><img src="img/icons/github.png" alt="github"></a>
+                        <a href="https://www.linkedin.com/in/gustavobrag/"><img src="img/icons/linkedin.png" alt="linkedin"></a>
                     </div>
                     <div class="vitae">
                         <p>aaaaaaaaaaaaaaaaaaaaaaaaaa <br>
@@ -45,10 +45,10 @@
                     <h2>My Works</h2>
                     <p>Own projects and design projects</p>
                     <ul id="bl-work-items">
-                        <li data-panel="panel-1"><a href="#"><img id="demoarcade" src="img/darcade.png" alt="demoarcade"></a></li>
-                        <li data-panel="panel-2"><a href="#"><img id="obraga" src="img/obraga.png" alt="orlando braga"></a></li>
-                        <li data-panel="panel-2"><a href="#"><img id="obraga" src="img/design.png" alt="orlando braga"></a></li>
-                    
+                        <li data-panel="panel-1"><a href="#"><img id="panel-items" src="img/works/darcade.png" alt="demoarcade"></a></li>
+                        <li data-panel="panel-2"><a href="#"><img id="panel-items" src="img/works/obraga.png" alt="orlando braga"></a></li>
+                        <li data-panel="panel-3"><a href="#"><img id="panel-items" src="img/works/bmax.png" alt="bramax"></a></li>
+                        <li data-panel="panel-4"><a href="#"><img id="panel-items" src="img/works/MORE.png" alt=""></a></li>
                     </ul>
                 </div>
                 <span class="bl-icon bl-icon-close"></span>
@@ -69,18 +69,25 @@
             </section>
             <!--panel items for the works-->
             <div class="bl-panel-items" id="bl-panel-work-items">
-                <div data-panel="panel-1">
-                    <div>
-                        <img src="img//demoarcade.png" alt="demoarcade">
-
-                        <p>demoarcade description</p>
-                        <a href="#"><img src="" alt="demoarcade github"></a>
-                        <a href="#"><img src="" alt="demoarcade link"></a>
+                <div id="panel" data-panel="panel-1">
+                    <div id="column-1">
+                        <div>
+                            <img src="img/works/demoarcade.png" alt="demoarcade">
+                            <div>
+                                <a href="https://github.com/bragus/demoarcade"><img src="img/icons/githubwhite.png" alt="demoarcade github"></a>
+                                <a href="https://demoarcade.herokuapp.com/"><img src="img/icons/goiconwhite.png" alt="demoarcade link"></a>
+                            </div>
+                        </div>
+                        <p>Demoarcade is a project from Mastertech Academy.<br> <br>
+                        A simple asteroid game created using JavaScript and Django. <br></p>
+                        <h2>Screenshots:</h2>
+                        <img src="img\works\dprint.png" alt="Print screen demoarcade">
                     </div>
+
                 </div>
                 <div data-panel="panel-2">
                     <div>
-                        <img src="images/orlandobraga.jpg" alt="orlando braga">
+                        <img src="img/works/orlandobraga.jpg" alt="orlando braga">
                         <h3>orlando braga</h3>
                         <a href="#"><img src="" alt="orlandobraga link"></a>
                     </div>
@@ -92,11 +99,20 @@
                         <h3>freela designs</h3>
                     </div>
                 </div>
+                <div data-panel="panel-4">
+                    <div>
+                        <img src="" alt="bramax">
+                        <img src="" alt="djpiu">
+                        <h3>freelaaaaa</h3>
+                    </div>
+                </div>
                 <nav>
                     <span class="bl-next-work">&gt; Next</span>
                     <span class="bl-icon bl-icon-close"></span>
                 </nav>
             </div>
+
+
         </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>

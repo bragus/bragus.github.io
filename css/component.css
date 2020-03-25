@@ -91,20 +91,15 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 }
 
 .profile p img{
-	height: 4.7vh;
+	height: 4.5vh;
 	padding-right: 10px;
 }
 
-.vitae{
-}
 
 
 .container { height: 100%; }
 
 
-#obraga, #demoarcade{
-	width: 300px
-}
 
 .bl-main {
 	position: absolute;
@@ -323,6 +318,8 @@ div.bl-panel-items > div > div {
 	width: 20vw;
 }
 
+
+
 /* Panel Items */
 
 div.bl-panel-items,
@@ -365,7 +362,6 @@ div.bl-panel-items {
 }
 
 div.bl-panel-items > div {
-	background: #3ba5db;
 	z-index: 0;
 	opacity: 0;
 	-webkit-transform: translateY(0);
@@ -433,6 +429,34 @@ div.bl-panel-items > div.bl-hide-current-work {
 	-ms-transform: translateY(-100%) scale(0.5);
 	z-index: 0;
 }
+
+
+/* Panel */
+
+
+#panel-items{
+	width: 300px
+}
+
+#panel div{
+	display: grid;
+}
+
+
+#panel:first-child{
+	background-image: url(../img/works/dfundo.png);
+	background-size: 90vw;
+}
+
+#column-1 div{
+	display: flex;
+	align-items: center;
+}
+
+#column-1 div a img {
+	width: 20px;
+}
+
 
 /* Transition classes and properties */
 /* Separated for a better overview and control */
@@ -535,4 +559,16 @@ section.bl-expand .bl-icon-close {
 	.bl-content > ul li {
 		width: 40%;
 	}
+}
+
+
+@media (max-width: 800px){
+	#column-1 div{
+		display: grid;
+	}
+}
+
+#column-1 div div{
+	display: flex;
+}
 }
