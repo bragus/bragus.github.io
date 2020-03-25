@@ -24,7 +24,7 @@ body, html { font-size: 100%; padding: 0; margin: 0; height: 100%;}
 body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
     color: #f2ede3;
-    background: #333;
+    background: #272727;
     font-size: 0.9em;
     font-weight: 300;
 }
@@ -124,13 +124,13 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 }
 
 .bl-main > section:nth-child(2){
-    background: #4d4d4d;
+    background: #4f3439;
     left: 50%;
     top:0;
 }
 
 .bl-main > section:nth-child(3){
-    background: #414141;
+    background: #362024;
     left: 50%;
     top: 50%;
 }
@@ -513,18 +513,18 @@ div.bl-panel-items > div.bl-hide-current-work {
 
 .bl-main > section:first-child.bl-expand {
 	background: #FFF;
-	color: #333;
+	color: #4f3439;
 }
 
 .bl-main > section:first-child.bl-expand a{
 	background: #FFF;
-	color: #333;
+	color: #4f3439;
 }
 .bl-main > section:nth-child(2).bl-expand {
-	background: #4d4d4d;
+	background: #4f3439;
 }
 .bl-main > section:nth-child(3).bl-expand {
-	background: #414141;
+	background: #362024;
 }
 
 
