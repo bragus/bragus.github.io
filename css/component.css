@@ -75,7 +75,7 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 
 .bl-content-profile{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 }
 
 .profile{
@@ -218,12 +218,11 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 
 
 .bl-icon-works:before {
-	content: "\e001";
+	content: url(../img/icons/workicon.png);
 }
 
 .bl-icon-contact:before {
-	content: "\e003";
-}
+	content: url(../img/icons/mailicon.png);}
 
 .bl-main > section .bl-icon-close {
 	position: absolute;
@@ -615,6 +614,10 @@ section.bl-expand .bl-icon-close {
 
 	#imgbramax{
 		width: 80%;
+	}
+
+	.bl-content-profile{
+		display: grid;
 	}
 
 }
