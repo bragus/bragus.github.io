@@ -97,7 +97,8 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 
 
 
-.container { height: 100%; }
+.container { 
+	height: 100%; }
 
 
 
@@ -222,7 +223,9 @@ a img:hover, .hvr-float:focus, .hvr-float:active{
 }
 
 .bl-icon-contact:before {
-	content: url(../img/icons/mailicon.png);}
+	content: url(../img/icons/mailicon.png);
+}
+	
 
 .bl-main > section .bl-icon-close {
 	position: absolute;
@@ -618,6 +621,14 @@ section.bl-expand .bl-icon-close {
 
 	.bl-content-profile{
 		display: grid;
+	}
+
+	.bl-icon-works:before {
+		content: url(../img/icons/workiconmobile.png);
+	}
+	
+	.bl-icon-contact:before {
+		content: url(../img/icons/mailiconmobile.png);
 	}
 
 }
