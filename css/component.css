@@ -442,10 +442,13 @@ div.bl-panel-items > div.bl-hide-current-work {
 	display: grid;
 }
 
-
 #panel:first-child{
 	background-image: url(../img/works/dfundo.png);
 	background-size: 90vw;
+}
+
+#panel:nth-child(2){
+	background: #0a0a0a;
 }
 
 #column-1 div{
@@ -454,9 +457,13 @@ div.bl-panel-items > div.bl-hide-current-work {
 }
 
 #column-1 div a img {
+	margin: 0;
 	width: 20px;
 }
 
+#imgobraga{
+	width: 50%;
+}
 
 /* Transition classes and properties */
 /* Separated for a better overview and control */
@@ -562,13 +569,20 @@ section.bl-expand .bl-icon-close {
 }
 
 
+/* Responsive */
+
+
 @media (max-width: 800px){
 	#column-1 div{
 		display: grid;
 	}
+
+
+	#column-1 div div{
+		display: flex;
 }
 
-#column-1 div div{
-	display: flex;
-}
+	#imgobraga{
+		width: 80%;
+	}
 }
