@@ -435,8 +435,9 @@ div.bl-panel-items > div.bl-hide-current-work {
 
 
 #panel-items{
-	width: 300px
+	width: 300px;
 }
+
 
 #panel div{
 	display: grid;
@@ -451,9 +452,26 @@ div.bl-panel-items > div.bl-hide-current-work {
 	background: #0a0a0a;
 }
 
+#panel:nth-child(3){
+	background: #743a35;
+}
+
+#panel:nth-child(4){
+	display: grid;
+}
+
+#bimg{
+	border: #fff 4px solid;
+	width: 70%;
+}
+
 #column-1 div{
 	display: flex;
 	align-items: center;
+}
+
+#colunm-1 div img{
+	margin: 0;
 }
 
 #column-1 div a img {
@@ -463,6 +481,14 @@ div.bl-panel-items > div.bl-hide-current-work {
 
 #imgobraga{
 	width: 50%;
+}
+
+#imgbramax{
+	width: 50%
+}
+
+#imgdjpiu{
+	width: 300px;
 }
 
 /* Transition classes and properties */
@@ -573,6 +599,7 @@ section.bl-expand .bl-icon-close {
 
 
 @media (max-width: 800px){
+
 	#column-1 div{
 		display: grid;
 	}
@@ -580,9 +607,14 @@ section.bl-expand .bl-icon-close {
 
 	#column-1 div div{
 		display: flex;
-}
+	}
 
 	#imgobraga{
 		width: 80%;
 	}
+
+	#imgbramax{
+		width: 80%;
+	}
+
 }
