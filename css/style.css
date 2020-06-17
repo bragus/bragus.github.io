@@ -35,6 +35,7 @@ body{
     header.masthead{
       display: flex;
       justify-content: center;
+      margin: 0px;  
       background-image: url("../assets/img/headerbgmobil.png");
 
     }

@@ -10093,12 +10093,22 @@ header.masthead {
   background-position: center center;
   background-size: cover;
   display: grid;  
-  justify-content: center;
+  justify-content: flex-end;
+  margin-right: 100px;
+
 }
 
 @media (min-width: 1500px){
   header.masthead{
-    background-size: 30vw;
+    background-size: 70vw;
+    background-position: left;
+  }
+}
+
+
+@media (min-width: 1980px){
+  header.masthead{
+    background-size: 50vw;
     background-position: left;
   }
 }
